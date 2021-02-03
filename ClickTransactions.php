@@ -38,15 +38,15 @@ class ClickTransactions extends ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('yii', 'ID'),
-            'user_id' => Yii::t('yii', 'User ID'),
-            'click_trans_id' => Yii::t('yii', 'Click Trans ID'),
-            'amount' => Yii::t('yii', 'Amount'),
-            'click_paydoc_id' => Yii::t('yii', 'Click Paydoc ID'),
-            'service_id' => Yii::t('yii', 'Service ID'),
-            'sign_time' => Yii::t('yii', 'Sign Time'),
-            'status' => Yii::t('yii', 'Status'),
-            'create_time' => Yii::t('yii', 'Create Time'),
+            'id'                => Yii::t('click', 'ID'),
+            'user_id'           => Yii::t('click', 'User ID'),
+            'click_trans_id'    => Yii::t('click', 'Click Trans ID'),
+            'amount'            => Yii::t('click', 'Amount'),
+            'click_paydoc_id'   => Yii::t('click', 'Click Paydoc ID'),
+            'service_id'        => Yii::t('click', 'Service ID'),
+            'sign_time'         => Yii::t('click', 'Sign Time'),
+            'status'            => Yii::t('click', 'Status'),
+            'create_time'       => Yii::t('click', 'Create Time'),
         ];
     }
 }
